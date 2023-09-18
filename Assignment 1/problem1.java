@@ -13,6 +13,7 @@ public class problem1 {
                 num2 = input.nextInt();
                 valid = true;
                 System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));
+                input.close();
             } catch (Exception e) {
                 System.out.println("Invalid input.");
                 input.nextLine();
