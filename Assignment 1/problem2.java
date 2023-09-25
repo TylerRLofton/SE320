@@ -18,7 +18,7 @@ public class problem2 {
                 System.out.println("The number at index " + index + " is " + randomInts[index]);
                 valid = true;
                 input.close();
-            } catch (Exception e) {
+            }catch (ArrayIndexOutOfBoundsException e) {
                 System.out.println("Out of bounds.");
                 input.nextLine();
             }
